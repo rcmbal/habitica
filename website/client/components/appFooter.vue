@@ -74,7 +74,7 @@
           .col-10 {{ $t('donateText3') }}
           .col-2
             .btn.btn-contribute
-              a(href='http://habitica.wikia.com/wiki/Contributing_to_Habitica', target='_blank')
+              a(href='', v-html="$t('contributeWiki')")
                 .svg-icon.heart(v-html="icons.heart")
                 .text {{ $t('contribute') }}
     .row
